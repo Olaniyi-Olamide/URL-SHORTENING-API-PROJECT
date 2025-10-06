@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+    <title>Shortly</title>
+  </head>
+  <body>
+    <nav class="flex justify-between px-3 py-3 md:px-14 md:py-8">
+      <div class="flex md:justify-center md:items-center space-x-12">
+        <img src="../images/logo.svg" alt="logo-img" />
+        <div class="hidden md:flex justify-between space-x-5">
+          <a
+            href=""
+            class="text-LightGray text-[1.1rem] font-bold hover:text-DarkGray"
+            >Features</a
+          >
+          <a
+            href=""
+            class="text-LightGray text-[1.1rem] font-bold hover:text-DarkGray"
+            >Pricing</a
+          >
+          <a
+            href=""
+            class="text-LightGray text-[1.1rem] font-bold hover:text-DarkGray"
+            >Resources</a
+          >
+        </div>
+      </div>
+      <div class="hidden md:flex space-x-6 items-center justify-center">
+        <a href="" class="text-LightGray text-[1.1rem] font-bold">Login</a>
+        <button
+          class="text-white px-5 py-2 bg-Blue border-none rounded-[20px] text-[1rem] font-medium hover:opacity-[0.5]"
+        >
+          Sign Up
+        </button>
+      </div>
+      <button class="bg-transparent md:hidden">
+        <img src="../images/icon-hamburger.svg" alt="icon-hamburger" />
+      </button>
+    </nav>
+
+    <main
+      class="my-8 flex flex-col overflow-hidden justify-center items-center md:flex-row-reverse"
+    >
+      <div class="relative -right-[3rem] md:-right-[5rem]">
+        <img
+          src="../images/illustration-working.svg"
+          alt="illustration-working"
+        />
+      </div>
+      <header class="my-[1rem] text-center px-3 md:text-left md:px-[3rem]">
+        <h1
+          class="text-DarkGray max-w-[20ch] md:max-w-[26ch] lg:max-w-[16ch] lg:text-[3rem] text-[2.5rem] font-bold"
+        >
+          More than just shorter links
+        </h1>
+        <p class="text-LightGray text-[1.2rem] font-medium lg:max-w-[40ch]">
+          Build your brand’s recognition and get detailed insights on how your
+          links are performing.
+        </p>
+
+        <button
+          class="text-white px-8 py-3 bg-Blue border-none rounded-[25px] text-[1.2rem] font-medium mt-4 hover:opacity-[0.5]"
+        >
+          Get started
+        </button>
+      </header>
+    </main>
+
+    <section
+      class="mt-[7rem] px-[2rem] md:px-[2rem] py-[2rem] bg-VeryLightGray"
+    >
+      <div
+        class="bg-Purple py-[1rem] px-[1rem] md:p-[2rem] rounded-[10px] relative top-[-4rem]"
+      >
+        <form
+          class="space-y-4 flex flex-col md:flex-row md:space-x-5 md:space-y-0 md:items-center md:justify-center"
+        >
+          <input
+            type="text"
+            class="px-[2rem] py-[1rem] rounded-[0.5rem] text-LightGray bg-white w-full text-[1.1rem] font-bold md:w-[70%]"
+            placeholder="Shorten a link here..."
+          />
+          <button
+            class="px-[2rem] py-[1rem] rounded-[0.5rem] border-none text-white bg-Blue w-full md:w-[30%] text-[1.1rem] font-bold hover:brightness-130"
+          >
+            Shorten it!
+          </button>
+        </form>
+      </div>
+      <!-- <div
+        class="bg-white py-[1rem] flex flex-col rounded-[10px] mb-[1rem] md:flex-row md:justify-between md:items-center"
+      >
+        <div class="md:px-[1rem]">
+          <p class="text-DarkGray text-[1.1rem] font-semibold mx-2.5 mb-2">
+            https://www.frontendmentor.io
+          </p>
+        </div>
+        <hr class="opacity-[0.5] md:hidden" />
+        <div class="flex flex-col md:flex-row">
+          <p class="text-Blue text-[1.1rem] font-semibold mx-2.5 my-2">
+            https://relLink/xyz
+          </p>
+          <button
+            class="px-[2rem] py-[0.6rem] rounded-[0.5rem] mx-2.5 border-none text-white bg-Blue w-[95%] md:w-[50%] text-[1.1rem] font-bold hover:brightness-130"
+          >
+            Copy
+          </button>
+        </div>
+      </div> -->
+    </section>
+
+    <section
+      class="px-[1rem] text-center bg-VeryLightGray md:flex md:justify-center md:items-center md:flex-col"
+    >
+      <h2
+        class="pt-[2rem] text-DarkGray text-[1.7rem] font-bold md:text-[2.3rem]"
+      >
+        Advanced Statistics
+      </h2>
+      <p
+        class="text-LightGray text-[1.1rem] font-medium my-4 mb-10 md:text-[1.7rem] lg:max-w-[50ch]"
+      >
+        Track how your links are performing across the web with our advanced
+        statistics dashboard.
+      </p>
+      <div
+        class="flex flex-col text-center pb-24 justify-center items-center md:flex-row px-[2rem]"
+      >
+        <div
+          class="bg-white px-5 mt-[2rem] pb-10 md:text-left md:h-[22rem] lg:h-[13rem]"
+        >
+          <img
+            src="../images/icon-brand-recognition.svg"
+            alt="icon-brand-recognition"
+            class="bg-Purple p-5 rounded-full relative top-[-2.5rem] -right-[3.8rem] md:-right-[1rem]"
+          />
+          <h3 class="text-DarkGray text-[1.4rem] font-bold -mt-4">
+            Brand Recognition
+          </h3>
+          <p class="text-LightGray text-[1rem] font-medium mt-3.5">
+            Boost your brand recognition with each click. Generic links don’t
+            mean a thing. Branded links help instil confidence in your content.
+          </p>
+        </div>
+        <figure
+          class="bg-Blue w-[10px] h-[50px] md:w-[100px] md:h-[10px] md:relative md:-bottom-[2rem]"
+        ></figure>
+        <div
+          class="bg-white px-5 mt-[2rem] pb-10 md:text-left md:h-[22rem] lg:h-[13rem] md:relative md:-bottom-[2rem]"
+        >
+          <img
+            src="../images/icon-detailed-records.svg"
+            alt="icon-detailed-records"
+            class="bg-Purple p-5 rounded-full relative top-[-2.5rem] -right-[3.8rem] md:-right-[1rem]"
+          />
+          <h3 class="text-DarkGray text-[1.4rem] font-bold -mt-4">
+            Detailed Records
+          </h3>
+          <p class="text-LightGray text-[1rem] font-medium mt-3.5">
+            Gain insights into who is clicking your links. Knowing when and
+            where people engage with your content helps inform better decisions.
+          </p>
+        </div>
+        <figure
+          class="bg-Blue w-[10px] h-[50px] md:w-[100px] md:h-[10px] md:relative md:-bottom-[2rem]"
+        ></figure>
+        <div
+          class="bg-white px-5 mt-[2rem] pb-10 md:text-left md:h-[22rem] lg:h-[14rem] md:relative md:-bottom-[4rem]"
+        >
+          <img
+            src="../images/icon-fully-customizable.svg"
+            alt="icon-fully-customizable"
+            class="bg-Purple p-5 rounded-full relative top-[-2.5rem] -right-[3.8rem] md:-right-[1rem]"
+          />
+          <h3 class="text-DarkGray text-[1.4rem] font-bold -mt-4">
+            Fully Customizable
+          </h3>
+          <p class="text-LightGray text-[1rem] font-medium mt-3.5">
+            Improve brand awareness and content discoverability through
+            customizable links, supercharging audience engagement.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center bg-Purple px-[2rem] py-[4rem]">
+      <h2 class="text-white text-[1.5rem] font-bold md:text-[2rem]">
+        Boost your links today
+      </h2>
+      <button
+        class="text-white px-8 py-3 bg-Blue border-none rounded-[25px] text-[1.2rem] font-medium mt-4 hover:brightness-130"
+      >
+        Get Started
+      </button>
+    </section>
+
+    <footer
+      class="bg-DarkGray mt-[-10px] flex flex-col gap-[1rem] pb-[2rem] md:flex-row md:items-center md:justify-center md:pb-[8rem] md:gap-[2rem] lg:gap-[4rem]"
+    >
+      <div class="py-[1.5rem] lg:mr-[5rem]">
+        <h1 class="text-[2rem] text-white font-bold text-center">Shortly</h1>
+      </div>
+      <div
+        class="text-center md:text-left flex flex-col space-y-4 md:flex-row md:space-x-8 md:relative md:top-[4rem]"
+      >
+        <div class="flex flex-col">
+          <h3 class="text-[1.3rem] text-white font-bold mb-2">Features</h3>
+          <a
+            href=""
+            class="text-LightGray text-[1rem] font-bold mb-1.5 hover:text-Blue"
+            >Link Shortening</a
+          >
+          <a
+            href=""
+            class="text-LightGray text-[1rem] font-bold mb-1.5 hover:text-Blue"
+            >Branded Links</a
+          >
+          <a
+            href=""
+            class="text-LightGray text-[1rem] font-bold mb-1.5 hover:text-Blue"
+            >Analytics</a
+          >
+        </div>
+        <div class="flex flex-col">
+          <h3 class="text-[1.3rem] text-white font-bold mb-2">Resources</h3>
+          <a
+            href=""
+            class="text-LightGray text-[1rem] font-bold mb-1.5 hover:text-Blue"
+            >Blog</a
+          >
+          <a
+            href=""
+            class="text-LightGray text-[1rem] font-bold mb-1.5 hover:text-Blue"
+            >Developers</a
+          >
+          <a
+            href=""
+            class="text-LightGray text-[1rem] font-bold mb-1.5 hover:text-Blue"
+            >Support</a
+          >
+        </div>
+        <div class="flex flex-col">
+          <h3 class="text-[1.3rem] text-white font-bold mb-2">Company</h3>
+          <a
+            href=""
+            class="text-LightGray text-[1rem] font-bold mb-1.5 hover:text-Blue"
+            >About</a
+          >
+          <a
+            href=""
+            class="text-LightGray text-[1rem] font-bold mb-1.5 hover:text-Blue"
+            >Our Team</a
+          >
+          <a
+            href=""
+            class="text-LightGray text-[1rem] font-bold mb-1.5 hover:text-Blue"
+            >Careers</a
+          >
+          <a
+            href=""
+            class="text-LightGray text-[1rem] font-bold mb-1.5 hover:text-Blue"
+            >Contact</a
+          >
+        </div>
+      </div>
+      <div class="flex justify-center items-center gap-5 mt-4">
+        <a href="" class="hover:bg-Blue"
+          ><img src="../images/icon-facebook.svg" alt="icon-facebook"
+        /></a>
+        <a href="" class="hover:bg-Blue">
+          <img src="../images/icon-twitter.svg" alt="icon-twitter" />
+        </a>
+        <a href="" class="hover:bg-Blue">
+          <img src="../images/icon-pinterest.svg" alt="icon-pinterest" />
+        </a>
+        <a href="" class="hover:bg-Blue">
+          <img src="../images/icon-instagram.svg" alt="icon-instagram" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
