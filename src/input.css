@@ -9,6 +9,7 @@
   --color-Blue: hsl(180, 66%, 49%);
   --color-Purple: hsl(257, 27%, 26%);
 }
-/* main{
-    color: 
-} */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
